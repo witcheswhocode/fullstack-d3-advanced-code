@@ -1,0 +1,14 @@
+circle {    
+    transition: transform 1s steps(6),
+    			background 2s ease-out;
+}
+
+circle.move {
+    background: yellowgreen;
+    transform: translateX(250px);
+}
+
+circle.move-back {
+    background: yellowgreen;
+    transform: translateX(-250px);
+}

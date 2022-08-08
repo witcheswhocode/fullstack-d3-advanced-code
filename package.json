@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-d3-advanced-code",
+  "version": "1.0.0",
+  "description": "This is the full code that goes along with [**Fullstack D3 and Data Visualization**](https://fullstack.io/fullstack-d3). We're so excited that you're interested in learning d3.js and data visualization with us!",
+  "main": "d3.v5.js",
+  "dependencies": {
+    "d3-time-format": "^3.0.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

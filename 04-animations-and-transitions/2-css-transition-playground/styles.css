@@ -1,0 +1,20 @@
+.box {
+    background: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    
+    /* #1) 1s to move box 30px to right 
+    /* when transition in element then it transitions on both hover and unhover 
+    transition-duration: 1s; 
+    transition-property: transform;
+    transition-timing-function: steps(6)
+    */
+    transition: transform 1s steps(6),
+    			background 2s ease-out;
+}
+
+.box:hover {
+    background: yellowgreen;
+    /* #1) 1s to move box 30px to right */
+    transform: translateX(30px);
+}
